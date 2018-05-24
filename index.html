@@ -6,25 +6,47 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-
+<!-- Contenedor de todooo! -->
 <section class = "container">
 
+    <!-- Sección del logo -->
     <section id = "logo">
-<h1>aqui despues va el logo</h1>
-</section>
+      <img src="../estructura/assets/img/caesarlogo.png">
+    </section>
 
-<h2>¡Envía todos tus mensajes de forma secreta!</h2>
+    <!-- Título -->
+    <h1>¡Envía todos tus mensajes de forma secreta!</h1>
+  
+   <!--Sección cifrado  -->
+   <section id = "cip1">
+     <h3>Escribe tu mensaje:</h3>
+     <input id ="text1"type="text" placeholder="Tu texto va aquí."> 
+     
+     <section class = "mov">
+     <h5>N° de desplazamiento: </h5>
+     <input class = "n1" type= "text">
+     <section>
+     <button id = "btn-send1">Enviar</button>
+    </section>
+    </section>
+      <!-- respuesta que despues lo hago con pinnerhtml-->
+     <p class = "res">Aquí va la respuesta</p>
+    
+    </section>
 
-<p>Escribe tu mensaje:</p>
-<input type="text" placeholder="tu texto va aquí"> 
-<button id = "btn-send1">Enviar</button>
-
-<p>Cifrado</p>
-<!-- respuesta que despues lo hago con pinnerhtml-->
-<p>Descifrar</p>
-<input id = "des" type="text" placeholder="Escribre tu mensaje descrifrado aquí">
-<button id = "btn-send2">Enviar</button>
-
+     <!-- Sección descifrado  -->
+    <section id = "des1">
+        
+      <h3>Descifrar:</h3>
+      <input id = "des" type="text" placeholder="Escribe tu mensaje para descrifrar aquí.">
+      <section class = "mov">
+      <h5>N° de desplazamiento: </h5>
+      <input class "n1" type= "text">
+      <button id = "btn-send2">Enviar</button>
+      </section>
+     <!-- respuesta que despues lo hago con pinnerhtml-->
+      <p class = "res">Aquí va la respuesta</p>
+      </section>
 
 
 </section>
