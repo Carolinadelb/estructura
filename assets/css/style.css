@@ -116,6 +116,10 @@ h3 {
     font-size: 3.0vh;
 }
 
+p {
+    text-align: justify;
+}
+
 /*Responsive
 
 @media only screen and (max-width: 1280px) and (min-width:) */
