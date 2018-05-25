@@ -26,8 +26,8 @@ body {
 .res {
     color: rebeccapurple;
     font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
 
 #btn-send1 {
     background-color: rgb(149, 74, 192); 
@@ -98,7 +98,7 @@ body {
 }
 
 .mov {
-    display: inline-block;
+    float: right;
 }
 
 #des {
@@ -110,6 +110,10 @@ body {
     background-color: #f8f8f8;
     resize: none;
     display: inline-block;
+}
+
+h3 {
+    font-size: 3.0vh;
 }
 
 /*Responsive
