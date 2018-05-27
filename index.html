@@ -7,8 +7,13 @@
   <link rel= "shorcut icon" type="png" href="../estructura/assets/img/caesarlogo.png">
   <link rel="stylesheet" href="assets/css/style.css" />
   <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+ 
+  <script language="javascript" type="text/javascript" src="app.js"></script>
+ 
 </head>
 <body>
+
+  
 <!-- Contenedor de todooo! -->
 <section class = "container">
 
@@ -33,11 +38,11 @@
      
      <section class = "mov">
      <h5>N° de desplazamiento: </h5>
-     <input class = "n1" type= "text">
-     <button id = "btn-send1">Enviar</button>
+     <input id = "n1" type= "text">
+     <button id = "buton1" onclick="boton1();" role="button">Enviar</button>
      </section>
       <!-- respuesta que despues lo hago con pinnerhtml-->
-     <p class = "res">Aquí va la respuesta</p>
+     <p id= "res"> </p>
     
     </section>
 
@@ -45,14 +50,14 @@
     <section id = "des1">
         
       <h3>Descifrar:</h3>
-      <input id = "des" type="text" placeholder="Escribe tu mensaje para descrifrar aquí.">
+      <input id = "text2" type="text" placeholder="Escribe tu mensaje para descrifrar aquí.">
       <section class = "mov">
       <h5>N° de desplazamiento: </h5>
-      <input class "n1" type= "text">
-      <button id = "btn-send2">Enviar</button>
+      <input id= "n2" type= "text">
+      <button id = "buton2" onClick="boton2();" role="button">Enviar</button>
       </section>
      <!-- respuesta que despues lo hago con pinnerhtml-->
-      <p class = "res">Aquí va la respuesta</p>
+      <p id = "res2"> </p>
       </section>
 
 
@@ -64,7 +69,5 @@
     <!--  
   <div id="root"></div>
 -->
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
 </body>
 </html>

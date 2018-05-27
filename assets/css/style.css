@@ -3,8 +3,7 @@ body {
     text-align: center;
     padding: 100px 200px;
     font-family: 'PT Sans Narrow', sans-serif;
-    
-
+       
 }
 
 .container {
@@ -23,13 +22,19 @@ body {
     height: auto;
 }
 
-.res {
+#res {
     color: rebeccapurple;
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
-#btn-send1 {
+#res2 {
+    color: rebeccapurple;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+#buton1 {
     background-color: rgb(149, 74, 192); 
     border: double rgba(136, 231, 179, 1);
     border-radius: 10px;
@@ -40,7 +45,7 @@ body {
     font-size: 15px;
 }
 
-#btn-send1:hover {
+#buton1:hover {
     background-color: white;
     border: double rgba(136, 231, 179, 1);
     border-radius: 10px;
@@ -52,25 +57,23 @@ body {
     box-shadow: 2px 5px grey;
 }
 
-#btn-send2 {
+#buton2 {
     background-color: rgb(149, 74, 192); 
     border: double rgba(136, 231, 179, 1);
     border-radius: 10px;
     color: white;
     padding: 15px 25px;
     text-align: center;
-    display: inline-block;
     font-size: 15px;
 }
 
-#btn-send2:hover {
+#buton2:hover {
     background-color: white;
     border: double rgba(136, 231, 179, 1);
     border-radius: 10px;
     color:rgb(149, 74, 192);
     padding: 15px 25px;
     text-align: center;
-    display: inline-block;
     font-size: 15px;
     box-shadow: 2px 5px grey;
 }
@@ -86,8 +89,31 @@ body {
     display: inline-block;
 }
 
-.n1 {
-    width: 5%;
+#text2 {
+    width: 50%;
+    height: 150px;
+    padding: 5px 5px;
+    border: 2px solid rgba(136, 231, 179, 1);
+    border-radius: 2px;
+    background-color: #f8f8f8;
+    resize: none;
+    display: inline-block;
+}
+
+
+#n1 {
+    width: 15%;
+    height: 10px;
+    padding: 5px 5px;
+    border: 2px solid rgba(136, 231, 179, 1);
+    border-radius: 2px;
+    background-color: #f8f8f8;
+    resize: none;
+    display: inline-block;
+}
+
+#n2 {
+    width: 15%;
     height: 10px;
     padding: 5px 5px;
     border: 2px solid rgba(136, 231, 179, 1);
@@ -120,6 +146,3 @@ p {
     text-align: justify;
 }
 
-/*Responsive
-
-@media only screen and (max-width: 1280px) and (min-width:) */
